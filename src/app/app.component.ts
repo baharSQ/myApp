@@ -7,11 +7,11 @@ export class Hero {
   quantity: number;
 }
 const HEROES: Hero[] = [
-  { inStock: 0, name: 'Game1', date: '3.3.2017', image:'../assets/game.jpg',quantity:0},
-  { inStock: 6, name: 'Game2', date: '1.5.2016', image: '../assets/game.jpg',quantity:0},
+  { inStock: 0, name: 'Game1', date: '3.3.2017', image:'assets/game.jpg',quantity:0},
+  { inStock: 6, name: 'Game2', date: '1.5.2016', image: 'assets/game.jpg',quantity:0},
 
-  { inStock: 13, name: 'Game3', date: '1.3.2016', image: '../assets/game.jpg',quantity:0},
-  { inStock: 14, name: 'Game4', date: '3.5.2017', image: '../assets/game.jpg',quantity:0}
+  { inStock: 13, name: 'Game3', date: '1.3.2016', image: 'assets/game.jpg',quantity:0},
+  { inStock: 14, name: 'Game4', date: '3.5.2017', image: 'assets/game.jpg',quantity:0}
 ];
 @Component({
   selector: 'my-app',
